@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    text-align: center;
+    margin: 40vh ;
+    background-color: black;
+   
+}
+
+button{
+    text-align: center;
+    grid-template-columns: repeat(4,1fr);
+    width: 5%;
+    height: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 2px;
+    color: black;
+    border: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+button:hover{
+    background-color: wheat;
+}
+.textarea{
+    height: 50px;
+    width: 24%;
+    margin: 10px;
+    border:none;
+}
+#res{
+    font-size: larger;
+    font-weight: bolder;
+}

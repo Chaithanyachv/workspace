@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BASIC TAGS</title>
+        <!--internal style-->
+        <style>
+            h4 {
+                color: rgba(0, 255, 255, 0.212);
+            }
+            table,th,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 10px;
+            } 
+           tr:nth-child(even){
+            background-color: aquamarine;
+           }
+           tr:hover{
+            color: brown;
+            background-color: blueviolet;
+           }
+           button{
+                width: 20%;
+                height: 15%;
+                background-color: blue;
+                color: white;
+                margin-top: 5%;
+                border: none;
+                box-shadow: 5px 10px 8px rgb(146, 146, 243);
+                outline: none;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1 style="color: blue;">HEADING</h1>
+        <H2 style="background-color: brown;">heading</H2>
+        <H3 style="text-align: center;">heading</H3>
+        <h4>heading</h4>
+        
+        <p>
+            A full stack developer is a professional who works on both the front end <br>
+            and back end of web development. They design, develop, and maintain platforms<br>
+             that include databases or servers. The front end is the part of a website that<br> 
+             users see and interact with, while the back end is the data storage and processing<br>
+             that happens behind the scenes. Full stack developers may work on projects involving APIs,<br>
+              databases, building user-facing websites, or even working with clients during the planning phase of projects.
+        <!--inline comment--></p>
+       <!--single line comment-->
+       <!--mutiline
+    comment-->
+    <table >
+        <thead>
+        <tr>
+           <th>name</th><th>age</th><th>ph.no</th><th colspan="2">mail id & city</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>sai</td><td>23</td><td>9090909090</td><td>sai@gmail.com</td><td rowspan="4">nellore</td>
+            </tr>
+            <tr>
+            <td>sai</td><td>23</td><td>9090909090</td><td>sai@gmail.com</td>
+            </tr>
+            <tr>
+            <td>sai</td><td>23</td><td>9090909090</td><td>sai@gmail.com</td>
+            </tr>
+            <tr>
+            <td>sai</td><td>23</td><td>9090909090</td><td>sai@gmail.com</td>
+            </tr> 
+        </tbody>
+    </table>
+    <!--list starts here-->
+    <ul style="list-style-type: square;">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <ol type="A">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ol>
+    <!--list ends here-->
+
+    <!--Forms starts here-->
+    <form style="border: 1px solid black; text-align: center; width: 50%;">
+        <h2>Login</h2>
+        <label>user name</label>
+        <div><input type="email" required name="e mail" placeholder="username"></div>
+        <label>Password</label>
+        <div><input type="password" required name="Password" placeholder="password"></div>
+        <button  style="margin: 10px;"><a href="#"></a>sudmit</button>
+    </form>
+<input type="text">
+<input type="button" value="7" onclick="solve('7')">
+    
+
+    </body>
+</html>
